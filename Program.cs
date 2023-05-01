@@ -33,16 +33,24 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            WriteAndVariables obj1= new WriteAndVariables();
-            DataConversion obj2= new DataConversion();
+            //WriteAndVariables obj1= new WriteAndVariables();
+            //DataConversion obj2= new DataConversion();
+            Arrays obj3= new Arrays();
 
-            Console.WriteLine("obj1 is executing");
-            obj1.func();
+            //Console.WriteLine("obj1 is executing");
+            //obj1.func();
 
-            Console.WriteLine();
+            //Console.WriteLine();
 
-            Console.WriteLine("obj2 is executing");
-            obj2.func();
+            //Console.WriteLine("obj2 is executing");
+            //obj2.func();
+
+
+            //Console.WriteLine();
+
+            Console.WriteLine("obj3 is executing");
+            obj3.func();
+          
         }
     }
 }
